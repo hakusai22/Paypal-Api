@@ -53,3 +53,10 @@ def get_prod_productId():
     datas = yaml.safe_load(fs)
     product_id = datas['prod']['product_id']
     return product_id
+
+def get_test_apiKey():
+    curPath = os.path.dirname(os.path.realpath(__file__))
+    fs = open(os.path.join(curPath, "config.yaml"), encoding="UTF-8")
+    datas = yaml.safe_load(fs)
+    api_key = datas['api_key']
+    return api_key
