@@ -18,6 +18,8 @@ if __name__ == '__main__':
         #"plan_id": "P-1J535022XM050613GMXSX2TY",
         # 免费试用1天
         "plan_id": "P-93D29984R6424570HMXSZAXQ",
+        # 直接付费 1天 一续
+        #"plan_id": "P-9JU57009UP429752MMXTP3YA",
         "quantity": "1",
         "subscriber": {
             "name": {
@@ -69,3 +71,8 @@ if __name__ == '__main__':
 
 # 免费试用1天 9.9
 # {"status":"APPROVAL_PENDING","id":"I-2C2VHYYUKEUD","create_time":"2024-03-04T09:20:35Z","links":[{"href":"https://www.sandbox.paypal.com/webapps/billing/subscriptions?ba_token=BA-0L899469X45215113","rel":"approve","method":"GET"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-2C2VHYYUKEUD","rel":"edit","method":"PATCH"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-2C2VHYYUKEUD","rel":"self","method":"GET"}]}
+
+# 直接付费 一天一续
+# {"status":"APPROVAL_PENDING","id":"I-KU7CK28UPP1H","create_time":"2024-03-05T11:11:57Z","links":[{"href":"https://www.sandbox.paypal.com/webapps/billing/subscriptions?ba_token=BA-6D495972H9604484P","rel":"approve","method":"GET"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-KU7CK28UPP1H","rel":"edit","method":"PATCH"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-KU7CK28UPP1H","rel":"self","method":"GET"}]}
+
+# {"status":"APPROVAL_PENDING","id":"I-RSL4P9XXS9GB","create_time":"2024-03-05T11:54:20Z","links":[{"href":"https://www.sandbox.paypal.com/webapps/billing/subscriptions?ba_token=BA-6RF36418NT557073R","rel":"approve","method":"GET"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-RSL4P9XXS9GB","rel":"edit","method":"PATCH"},{"href":"https://api-m.sandbox.paypal.com/v1/billing/subscriptions/I-RSL4P9XXS9GB","rel":"self","method":"GET"}]}
